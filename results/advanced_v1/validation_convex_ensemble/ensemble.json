@@ -1,0 +1,14 @@
+{
+  "members": [
+    "chemprop_dmpnn_rdkit",
+    "mordred_sobolev_mlp",
+    "mordred_mlp"
+  ],
+  "weights": [
+    0.5,
+    0.5,
+    0.0
+  ],
+  "validation_MAE": 0.5650777624827016,
+  "rule": "Top three families by validation MAE; nonnegative weights on 0.1 grid summing to 1; no test-based selection. Not an independent new model or calibrated uncertainty."
+}

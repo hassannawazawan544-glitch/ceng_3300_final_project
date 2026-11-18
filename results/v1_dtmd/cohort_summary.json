@@ -1,0 +1,23 @@
+{
+ "curves_considered": 9550,
+ "rejected": {
+  "range": 3607,
+  "rmse": 15,
+  "points": 401
+ },
+ "accepted_curves_in_groups": 5261,
+ "groups": 657,
+ "solutes": 573,
+ "sources": 599,
+ "mean_solvents_per_group": 8.01,
+ "groups_with_complete_hot_density": 576,
+ "groups_per_fold": {
+  "0": 133,
+  "1": 125,
+  "2": 129,
+  "3": 146,
+  "4": 124
+ },
+ "quadratic_curves": 3506,
+ "distinct_solvents": 121
+}

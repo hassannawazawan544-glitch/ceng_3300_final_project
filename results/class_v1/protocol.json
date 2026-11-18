@@ -1,0 +1,34 @@
+{
+  "seed": 20261106,
+  "target": "log10 mole fraction",
+  "cohort": "neutral, single fragment molecular structures; variable-composition solvent names excluded",
+  "split": "70/15/15 by canonical solute, approximate proportions of groups",
+  "selection": "minimum validation row MAE; all models fitted on train only; no refit on test or validation",
+  "xgb_candidates": [
+    {
+      "max_depth": 4,
+      "min_child_weight": 5
+    },
+    {
+      "max_depth": 6,
+      "min_child_weight": 10
+    }
+  ],
+  "xgb_common": {
+    "n_estimators": 600,
+    "learning_rate": 0.04,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 10,
+    "reg_alpha": 0.1,
+    "tree_method": "hist",
+    "n_jobs": 4,
+    "random_state": 20261106,
+    "early_stopping_rounds": 50
+  },
+  "density": "piecewise linear of median per-temperature pure-solvent density; within range; normalized-name mapping; ambiguous names excluded; provenance in density file",
+  "input_sha256": {
+    "BigSolDBv2.0.csv": "879f55f39db977e295c705e304d011d89d6e10da1daaa3f069181108c1de38b0",
+    "BigSolDBv2.0_densities.csv": "02226420d9fb3294cb32211dac7f6ff7fa067511924afdb9f1893af1e334aac6"
+  }
+}

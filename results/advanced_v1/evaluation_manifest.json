@@ -1,0 +1,55 @@
+{
+  "n_model_entries": 18,
+  "test_rows": 11613,
+  "test_solutes": 170,
+  "endpoint_groups": 1316,
+  "shared_valid_endpoint_groups": 1309,
+  "common_temperature_rows": 371,
+  "eligible_decision_groups": 53,
+  "shared_valid_decision_groups": 53,
+  "ensemble": {
+    "members": [
+      "chemprop_dmpnn_rdkit",
+      "mordred_sobolev_mlp",
+      "mordred_mlp"
+    ],
+    "weights": [
+      0.5,
+      0.5,
+      0.0
+    ],
+    "validation_MAE": 0.5650777624827016,
+    "rule": "Top three families by validation MAE; nonnegative weights on 0.1 grid summing to 1; no test-based selection. Not an independent new model or calibrated uncertainty."
+  },
+  "checks": {
+    "chemprop_dmpnn": {
+      "seeds": 3,
+      "max_ensemble_difference": 1.7763568394002505e-15
+    },
+    "chemprop_dmpnn_rdkit": {
+      "seeds": 3,
+      "max_ensemble_difference": 1.7763568394002505e-15
+    },
+    "combined_mlp": {
+      "seeds": 3,
+      "max_ensemble_difference": 1.0000000010279564e-06
+    },
+    "mordred_mlp": {
+      "seeds": 3,
+      "max_ensemble_difference": 8.333333330057258e-07
+    },
+    "mordred_sobolev_mlp": {
+      "seeds": 3,
+      "max_ensemble_difference": 8.000000004670937e-07
+    },
+    "rdkit_mlp": {
+      "seeds": 3,
+      "max_ensemble_difference": 7.999999995789153e-07
+    },
+    "rdkit_vanthoff_mlp": {
+      "seeds": 3,
+      "max_ensemble_difference": 9.000000016357035e-07
+    }
+  },
+  "caveats": "One internal solute-group development split; source and phase dependence unresolved. Ideal equilibrium recovery, not isolated yield. Density interpolation uncertainty not included. Invalid mole-fraction endpoint predictions excluded and counted; shared comparisons restrict to all-method-valid groups. Bootstrap is conditional sampling variability, not a model prediction interval or multiplicity-corrected significance test."
+}

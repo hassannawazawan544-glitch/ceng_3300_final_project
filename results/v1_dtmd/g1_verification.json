@@ -1,0 +1,106 @@
+{
+ "mlp": {
+  "dLL_kernel_minus_null": [
+   0.1389,
+   0.1109,
+   0.1653
+  ],
+  "dLL_shuffled_minus_null": [
+   0.0007,
+   -0.0002,
+   0.0015
+  ],
+  "dLL_kernel_minus_shuffled": [
+   0.1382,
+   0.1108,
+   0.1648
+  ],
+  "raw_rmse": {
+   "null": 1.1039,
+   "kernel": 1.0472,
+   "shuffled": 1.1033
+  },
+  "rank_rmse": {
+   "null": 0.7805,
+   "kernel": 0.7519,
+   "shuffled": 0.7804
+  },
+  "d_rank_rmse_kernel_minus_null": [
+   -0.0286,
+   -0.0387,
+   -0.0184
+  ],
+  "d_rank_rmse_shuffled_minus_null": [
+   -0.0001,
+   -0.0008,
+   0.0006
+  ],
+  "d_rank_rmse_kernel_minus_shuffled": [
+   -0.0285,
+   -0.0392,
+   -0.0182
+  ],
+  "spearman_target_cold": {
+   "null": NaN,
+   "kernel": 0.2113,
+   "shuffled": 0.009
+  },
+  "d_spearman_kernel_minus_null": [
+   NaN,
+   NaN,
+   NaN
+  ]
+ },
+ "xgb": {
+  "dLL_kernel_minus_null": [
+   0.1524,
+   0.1221,
+   0.181
+  ],
+  "dLL_shuffled_minus_null": [
+   0.0009,
+   -0.0001,
+   0.0019
+  ],
+  "dLL_kernel_minus_shuffled": [
+   0.1516,
+   0.1214,
+   0.1793
+  ],
+  "raw_rmse": {
+   "null": 1.1174,
+   "kernel": 1.0595,
+   "shuffled": 1.117
+  },
+  "rank_rmse": {
+   "null": 0.7885,
+   "kernel": 0.7623,
+   "shuffled": 0.7887
+  },
+  "d_rank_rmse_kernel_minus_null": [
+   -0.0262,
+   -0.0382,
+   -0.0149
+  ],
+  "d_rank_rmse_shuffled_minus_null": [
+   0.0002,
+   -0.0006,
+   0.001
+  ],
+  "d_rank_rmse_kernel_minus_shuffled": [
+   -0.0264,
+   -0.0384,
+   -0.0151
+  ],
+  "spearman_target_cold": {
+   "null": NaN,
+   "kernel": 0.2034,
+   "shuffled": -0.0044
+  },
+  "d_spearman_kernel_minus_null": [
+   NaN,
+   NaN,
+   NaN
+  ]
+ }
+}

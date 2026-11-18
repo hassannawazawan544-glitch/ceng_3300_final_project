@@ -1,0 +1,17 @@
+{
+  "features": "1613 Mordred 2D per molecule before train-only variance filtering",
+  "seeds": [
+    20261106,
+    20261107,
+    20261108
+  ],
+  "max_epochs": 120,
+  "patience": 20,
+  "batch": 256,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.001,
+  "descriptor_clip": 3,
+  "sobolev_weight": 0.1,
+  "gradient": "finite differences of median log10(x) within source/pair, >=3 T; scaled by training target/T scales; retain either sign with abs gradient <5; no monotonicity assertion",
+  "deviations_from_FASTSOLV": "Smaller 256/128 towers + 512/256 head; 3 seeds instead of 4; target log mole fraction; own frozen solute splits; derivative filter/sign and loss weight differ; no exact literature reproduction claim."
+}

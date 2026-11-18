@@ -1,0 +1,12 @@
+# Python 3.10: neural networks, Chemprop GNN, Mordred descriptors, stage-2 MLP and policies
+torch==2.6.0
+chemprop==1.6.1
+typed-argument-parser==1.8.1
+mordredcommunity==2.0.7
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.3
+scikit-learn==1.6.1
+rdkit==2026.9.1
+matplotlib==3.10.1
+joblib==1.4.2

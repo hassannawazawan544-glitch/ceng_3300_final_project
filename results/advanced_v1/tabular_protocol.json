@@ -1,0 +1,27 @@
+{
+  "models": [
+    "XGB_RDKit",
+    "XGB_Morgan2",
+    "XGB_Morgan3",
+    "XGB_combined",
+    "ExtraTrees_RDKit",
+    "HistGB_RDKit"
+  ],
+  "xgb_candidates": [
+    {
+      "max_depth": 4,
+      "min_child_weight": 5
+    },
+    {
+      "max_depth": 6,
+      "min_child_weight": 10
+    }
+  ],
+  "selection": "Validation MAE only; evaluate heldout data after selection. Existing CLASS-001 split reused.",
+  "feature_preprocessing": "Training-only median imputation and constant-feature removal; Morgan counts log1p transformed; no fitted transform needed for log1p.",
+  "seeds": [
+    20261106,
+    20261107,
+    20261108
+  ]
+}

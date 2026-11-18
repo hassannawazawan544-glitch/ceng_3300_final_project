@@ -1,0 +1,24 @@
+{
+  "package": "chemprop 1.6.1 official PyPI",
+  "reason": "Working existing GPU environment uses Python 3.10; modern Chemprop requires Python >=3.11. Version difference explicitly recorded.",
+  "families": [
+    "chemprop_dmpnn",
+    "chemprop_dmpnn_rdkit"
+  ],
+  "seeds": [
+    20261106,
+    20261107,
+    20261108
+  ],
+  "epochs": 35,
+  "depth": 3,
+  "hidden_size": 300,
+  "ffn_hidden_size": 300,
+  "ffn_num_layers": 2,
+  "batch_size": 256,
+  "dropout": 0.1,
+  "split": "Explicit separate train/validation/test paths from CLASS-001; no row random split",
+  "criterion": "MSE optimization; checkpoint by validation MAE; test not used for model selection",
+  "target": "log10 mole fraction",
+  "notes": "No Sobolev loss; not FASTSOLV exact reproduction or DMPNN-MoE; graph-only includes measured temperature/inverseT. Hybrid additionally receives all RDKit 2D descriptors. All custom features scaled on train by Chemprop. All raw targets and density are excluded from molecular input features."
+}

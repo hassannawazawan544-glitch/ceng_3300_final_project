@@ -1,0 +1,15 @@
+{
+ "source_pairs": 37,
+ "solutes": 32,
+ "solute_macro_agree_best_R": 0.823,
+ "solute_macro_agree_best_cold_x": 0.953,
+ "solute_macro_chance": 0.254,
+ "median_spearman_lnx_cold": 1.0,
+ "median_abs_lnx_diff_cold": 0.056,
+ "median_abs_lnx_diff_cold_after_removing_shared_level": 0.021,
+ "U_pairs": 37,
+ "U_solutes": 32,
+ "solute_macro_agree_best_U": 1.0,
+ "median_rel_regret_U_using_other_lab": 0.0,
+ "mean_rel_regret_U_using_other_lab": 0.0
+}

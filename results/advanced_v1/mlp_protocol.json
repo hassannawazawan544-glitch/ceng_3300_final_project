@@ -1,0 +1,20 @@
+{
+  "families": [
+    "rdkit_mlp",
+    "combined_mlp",
+    "rdkit_vanthoff_mlp"
+  ],
+  "seeds": [
+    20261106,
+    20261107,
+    20261108
+  ],
+  "max_epochs": 120,
+  "patience": 18,
+  "batch_size": 512,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "dropout": 0.15,
+  "checkpoint": "best validation MAE, train-only fitting",
+  "notes": "Paired 256/128 towers, 256/128 head. Direct T plus inverseT or pair-dependent apparent vanthoff intercept/slope. Input clipping \u00b18 standardized units. Train-only median/variance/scaling. Not FASTSOLV reproduction: RDKit rather than Mordred, different widths, no Sobolev loss, mole-fraction target and common class split."
+}

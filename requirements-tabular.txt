@@ -1,0 +1,9 @@
+# Python 3.11: data cleaning, descriptors, tree models, stage-2 XGBoost
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+scikit-learn==1.9.1
+xgboost==3.2.0
+rdkit==2026.3.6
+matplotlib==3.11.2
+joblib==1.6.0

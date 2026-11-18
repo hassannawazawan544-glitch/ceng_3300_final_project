@@ -1,0 +1,4 @@
+{
+  "settings": "HistGradientBoostingRegressor(early_stopping=False, l2_regularization=10,\n                              learning_rate=0.05, max_iter=300,\n                              max_leaf_nodes=15, random_state=20261106)",
+  "runtime_seconds": 10.69694471359253
+}

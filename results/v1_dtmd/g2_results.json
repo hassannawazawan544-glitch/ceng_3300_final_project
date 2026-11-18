@@ -1,0 +1,521 @@
+{
+ "mlp": {
+  "0.5": {
+   "solutes": 519,
+   "groups": 576,
+   "f90": {
+    "KG_kernel": 0.34,
+    "KG_null": 0.34,
+    "US_kernel": 0.38,
+    "CF_classic": 0.78,
+    "CF_bayes": 0.78,
+    "PAIR": 0.67,
+    "RANDOM": 0.87
+   },
+   "auc_success": {
+    "KG_kernel": 0.8938,
+    "KG_null": 0.8752,
+    "US_kernel": 0.8378,
+    "CF_classic": 0.5137,
+    "CF_bayes": 0.7327,
+    "PAIR": 0.7946,
+    "RANDOM": 0.7186
+   },
+   "success_at_0.25": {
+    "KG_kernel": 0.884,
+    "KG_null": 0.839,
+    "US_kernel": 0.786,
+    "CF_classic": 0.311,
+    "CF_bayes": 0.569,
+    "PAIR": 0.667,
+    "RANDOM": 0.587
+   },
+   "success_at_0.50": {
+    "KG_kernel": 0.961,
+    "KG_null": 0.951,
+    "US_kernel": 0.9,
+    "CF_classic": 0.271,
+    "CF_bayes": 0.741,
+    "PAIR": 0.859,
+    "RANDOM": 0.706
+   },
+   "best_heuristic": "PAIR",
+   "reduction_vs_best_heuristic": 0.4925,
+   "reduction_ci95": [
+    0.4333,
+    0.6269
+   ],
+   "f90_KGnull_minus_KGkernel": 0.0,
+   "f90_KGnull_minus_KGkernel_ci95": [
+    0.0,
+    0.09
+   ]
+  },
+  "1.0": {
+   "solutes": 519,
+   "groups": 576,
+   "f90": {
+    "KG_kernel": 0.4,
+    "KG_null": 0.5,
+    "US_kernel": 0.84,
+    "CF_classic": 0.67,
+    "CF_bayes": 0.67,
+    "PAIR": 0.67,
+    "RANDOM": 0.87
+   },
+   "auc_success": {
+    "KG_kernel": 0.8604,
+    "KG_null": 0.836,
+    "US_kernel": 0.7565,
+    "CF_classic": 0.5975,
+    "CF_bayes": 0.7806,
+    "PAIR": 0.7893,
+    "RANDOM": 0.7231
+   },
+   "success_at_0.25": {
+    "KG_kernel": 0.781,
+    "KG_null": 0.743,
+    "US_kernel": 0.643,
+    "CF_classic": 0.297,
+    "CF_bayes": 0.662,
+    "PAIR": 0.667,
+    "RANDOM": 0.596
+   },
+   "success_at_0.50": {
+    "KG_kernel": 0.967,
+    "KG_null": 0.929,
+    "US_kernel": 0.788,
+    "CF_classic": 0.267,
+    "CF_bayes": 0.801,
+    "PAIR": 0.859,
+    "RANDOM": 0.729
+   },
+   "best_heuristic": "CF_classic",
+   "reduction_vs_best_heuristic": 0.403,
+   "reduction_ci95": [
+    0.3,
+    0.4328
+   ],
+   "f90_KGnull_minus_KGkernel": 0.1,
+   "f90_KGnull_minus_KGkernel_ci95": [
+    0.04,
+    0.12
+   ]
+  },
+  "2.0": {
+   "solutes": 519,
+   "groups": 576,
+   "f90": {
+    "KG_kernel": 0.5,
+    "KG_null": 0.54,
+    "US_kernel": 0.81,
+    "CF_classic": 0.56,
+    "CF_bayes": 0.56,
+    "PAIR": 0.67,
+    "RANDOM": 0.88
+   },
+   "auc_success": {
+    "KG_kernel": 0.8583,
+    "KG_null": 0.8362,
+    "US_kernel": 0.7822,
+    "CF_classic": 0.6831,
+    "CF_bayes": 0.8271,
+    "PAIR": 0.7842,
+    "RANDOM": 0.7153
+   },
+   "success_at_0.25": {
+    "KG_kernel": 0.804,
+    "KG_null": 0.774,
+    "US_kernel": 0.729,
+    "CF_classic": 0.271,
+    "CF_bayes": 0.741,
+    "PAIR": 0.667,
+    "RANDOM": 0.582
+   },
+   "success_at_0.50": {
+    "KG_kernel": 0.912,
+    "KG_null": 0.884,
+    "US_kernel": 0.806,
+    "CF_classic": 0.848,
+    "CF_bayes": 0.862,
+    "PAIR": 0.859,
+    "RANDOM": 0.709
+   },
+   "best_heuristic": "CF_classic",
+   "reduction_vs_best_heuristic": 0.1071,
+   "reduction_ci95": [
+    0.0357,
+    0.283
+   ],
+   "f90_KGnull_minus_KGkernel": 0.04,
+   "f90_KGnull_minus_KGkernel_ci95": [
+    0.0,
+    0.12
+   ]
+  },
+  "5.0": {
+   "solutes": 519,
+   "groups": 576,
+   "f90": {
+    "KG_kernel": 0.44,
+    "KG_null": 0.47,
+    "US_kernel": 0.77,
+    "CF_classic": 0.45,
+    "CF_bayes": 0.45,
+    "PAIR": 0.67,
+    "RANDOM": 0.9
+   },
+   "auc_success": {
+    "KG_kernel": 0.8883,
+    "KG_null": 0.8721,
+    "US_kernel": 0.8168,
+    "CF_classic": 0.7662,
+    "CF_bayes": 0.8747,
+    "PAIR": 0.7793,
+    "RANDOM": 0.7181
+   },
+   "success_at_0.25": {
+    "KG_kernel": 0.822,
+    "KG_null": 0.817,
+    "US_kernel": 0.799,
+    "CF_classic": 0.441,
+    "CF_bayes": 0.813,
+    "PAIR": 0.667,
+    "RANDOM": 0.589
+   },
+   "success_at_0.50": {
+    "KG_kernel": 0.938,
+    "KG_null": 0.922,
+    "US_kernel": 0.787,
+    "CF_classic": 0.95,
+    "CF_bayes": 0.925,
+    "PAIR": 0.859,
+    "RANDOM": 0.711
+   },
+   "best_heuristic": "CF_classic",
+   "reduction_vs_best_heuristic": 0.0222,
+   "reduction_ci95": [
+    -0.1111,
+    0.1707
+   ],
+   "f90_KGnull_minus_KGkernel": 0.03,
+   "f90_KGnull_minus_KGkernel_ci95": [
+    -0.03,
+    0.09
+   ]
+  },
+  "10.0": {
+   "solutes": 519,
+   "groups": 576,
+   "f90": {
+    "KG_kernel": 0.41,
+    "KG_null": 0.44,
+    "US_kernel": 0.75,
+    "CF_classic": 0.4,
+    "CF_bayes": 0.4,
+    "PAIR": 0.67,
+    "RANDOM": 0.9
+   },
+   "auc_success": {
+    "KG_kernel": 0.9024,
+    "KG_null": 0.8886,
+    "US_kernel": 0.8322,
+    "CF_classic": 0.8035,
+    "CF_bayes": 0.8955,
+    "PAIR": 0.7767,
+    "RANDOM": 0.7145
+   },
+   "success_at_0.25": {
+    "KG_kernel": 0.825,
+    "KG_null": 0.815,
+    "US_kernel": 0.801,
+    "CF_classic": 0.663,
+    "CF_bayes": 0.806,
+    "PAIR": 0.667,
+    "RANDOM": 0.589
+   },
+   "success_at_0.50": {
+    "KG_kernel": 0.947,
+    "KG_null": 0.928,
+    "US_kernel": 0.786,
+    "CF_classic": 0.956,
+    "CF_bayes": 0.943,
+    "PAIR": 0.859,
+    "RANDOM": 0.692
+   },
+   "best_heuristic": "CF_classic",
+   "reduction_vs_best_heuristic": -0.025,
+   "reduction_ci95": [
+    -0.175,
+    0.1352
+   ],
+   "f90_KGnull_minus_KGkernel": 0.03,
+   "f90_KGnull_minus_KGkernel_ci95": [
+    -0.04,
+    0.09
+   ]
+  }
+ },
+ "xgb": {
+  "0.5": {
+   "solutes": 519,
+   "groups": 576,
+   "f90": {
+    "KG_kernel": 0.34,
+    "KG_null": 0.45,
+    "US_kernel": 0.7,
+    "CF_classic": 0.78,
+    "CF_bayes": 0.8,
+    "PAIR": 0.67,
+    "RANDOM": 0.87
+   },
+   "auc_success": {
+    "KG_kernel": 0.8877,
+    "KG_null": 0.8491,
+    "US_kernel": 0.8311,
+    "CF_classic": 0.5212,
+    "CF_bayes": 0.7317,
+    "PAIR": 0.8013,
+    "RANDOM": 0.7204
+   },
+   "success_at_0.25": {
+    "KG_kernel": 0.841,
+    "KG_null": 0.79,
+    "US_kernel": 0.78,
+    "CF_classic": 0.32,
+    "CF_bayes": 0.568,
+    "PAIR": 0.701,
+    "RANDOM": 0.583
+   },
+   "success_at_0.50": {
+    "KG_kernel": 0.95,
+    "KG_null": 0.918,
+    "US_kernel": 0.879,
+    "CF_classic": 0.279,
+    "CF_bayes": 0.744,
+    "PAIR": 0.856,
+    "RANDOM": 0.711
+   },
+   "best_heuristic": "PAIR",
+   "reduction_vs_best_heuristic": 0.4925,
+   "reduction_ci95": [
+    0.3731,
+    0.5278
+   ],
+   "f90_KGnull_minus_KGkernel": 0.11,
+   "f90_KGnull_minus_KGkernel_ci95": [
+    0.0,
+    0.16
+   ]
+  },
+  "1.0": {
+   "solutes": 519,
+   "groups": 576,
+   "f90": {
+    "KG_kernel": 0.45,
+    "KG_null": 0.57,
+    "US_kernel": 0.84,
+    "CF_classic": 0.67,
+    "CF_bayes": 0.69,
+    "PAIR": 0.67,
+    "RANDOM": 0.88
+   },
+   "auc_success": {
+    "KG_kernel": 0.8544,
+    "KG_null": 0.8075,
+    "US_kernel": 0.7526,
+    "CF_classic": 0.604,
+    "CF_bayes": 0.7777,
+    "PAIR": 0.7951,
+    "RANDOM": 0.7261
+   },
+   "success_at_0.25": {
+    "KG_kernel": 0.768,
+    "KG_null": 0.684,
+    "US_kernel": 0.643,
+    "CF_classic": 0.292,
+    "CF_bayes": 0.674,
+    "PAIR": 0.701,
+    "RANDOM": 0.603
+   },
+   "success_at_0.50": {
+    "KG_kernel": 0.935,
+    "KG_null": 0.887,
+    "US_kernel": 0.764,
+    "CF_classic": 0.281,
+    "CF_bayes": 0.77,
+    "PAIR": 0.856,
+    "RANDOM": 0.729
+   },
+   "best_heuristic": "CF_classic",
+   "reduction_vs_best_heuristic": 0.3284,
+   "reduction_ci95": [
+    0.1797,
+    0.3881
+   ],
+   "f90_KGnull_minus_KGkernel": 0.12,
+   "f90_KGnull_minus_KGkernel_ci95": [
+    0.05,
+    0.17
+   ]
+  },
+  "2.0": {
+   "solutes": 519,
+   "groups": 576,
+   "f90": {
+    "KG_kernel": 0.5,
+    "KG_null": 0.62,
+    "US_kernel": 0.8,
+    "CF_classic": 0.56,
+    "CF_bayes": 0.59,
+    "PAIR": 0.67,
+    "RANDOM": 0.89
+   },
+   "auc_success": {
+    "KG_kernel": 0.8576,
+    "KG_null": 0.8182,
+    "US_kernel": 0.7806,
+    "CF_classic": 0.6887,
+    "CF_bayes": 0.8226,
+    "PAIR": 0.7892,
+    "RANDOM": 0.7171
+   },
+   "success_at_0.25": {
+    "KG_kernel": 0.77,
+    "KG_null": 0.727,
+    "US_kernel": 0.733,
+    "CF_classic": 0.279,
+    "CF_bayes": 0.744,
+    "PAIR": 0.701,
+    "RANDOM": 0.589
+   },
+   "success_at_0.50": {
+    "KG_kernel": 0.906,
+    "KG_null": 0.859,
+    "US_kernel": 0.785,
+    "CF_classic": 0.855,
+    "CF_bayes": 0.858,
+    "PAIR": 0.856,
+    "RANDOM": 0.704
+   },
+   "best_heuristic": "CF_classic",
+   "reduction_vs_best_heuristic": 0.1071,
+   "reduction_ci95": [
+    0.0,
+    0.1964
+   ],
+   "f90_KGnull_minus_KGkernel": 0.12,
+   "f90_KGnull_minus_KGkernel_ci95": [
+    0.05,
+    0.2
+   ]
+  },
+  "5.0": {
+   "solutes": 519,
+   "groups": 576,
+   "f90": {
+    "KG_kernel": 0.45,
+    "KG_null": 0.53,
+    "US_kernel": 0.78,
+    "CF_classic": 0.45,
+    "CF_bayes": 0.48,
+    "PAIR": 0.67,
+    "RANDOM": 0.92
+   },
+   "auc_success": {
+    "KG_kernel": 0.8834,
+    "KG_null": 0.8505,
+    "US_kernel": 0.8129,
+    "CF_classic": 0.7709,
+    "CF_bayes": 0.8683,
+    "PAIR": 0.7834,
+    "RANDOM": 0.7172
+   },
+   "success_at_0.25": {
+    "KG_kernel": 0.793,
+    "KG_null": 0.776,
+    "US_kernel": 0.775,
+    "CF_classic": 0.457,
+    "CF_bayes": 0.779,
+    "PAIR": 0.701,
+    "RANDOM": 0.599
+   },
+   "success_at_0.50": {
+    "KG_kernel": 0.928,
+    "KG_null": 0.898,
+    "US_kernel": 0.792,
+    "CF_classic": 0.95,
+    "CF_bayes": 0.924,
+    "PAIR": 0.856,
+    "RANDOM": 0.708
+   },
+   "best_heuristic": "CF_classic",
+   "reduction_vs_best_heuristic": 0.0,
+   "reduction_ci95": [
+    -0.119,
+    0.1333
+   ],
+   "f90_KGnull_minus_KGkernel": 0.08,
+   "f90_KGnull_minus_KGkernel_ci95": [
+    0.02,
+    0.18
+   ]
+  },
+  "10.0": {
+   "solutes": 519,
+   "groups": 576,
+   "f90": {
+    "KG_kernel": 0.44,
+    "KG_null": 0.49,
+    "US_kernel": 0.76,
+    "CF_classic": 0.4,
+    "CF_bayes": 0.44,
+    "PAIR": 0.67,
+    "RANDOM": 0.9
+   },
+   "auc_success": {
+    "KG_kernel": 0.8967,
+    "KG_null": 0.8642,
+    "US_kernel": 0.8275,
+    "CF_classic": 0.8078,
+    "CF_bayes": 0.8883,
+    "PAIR": 0.7804,
+    "RANDOM": 0.7156
+   },
+   "success_at_0.25": {
+    "KG_kernel": 0.816,
+    "KG_null": 0.794,
+    "US_kernel": 0.786,
+    "CF_classic": 0.676,
+    "CF_bayes": 0.803,
+    "PAIR": 0.701,
+    "RANDOM": 0.59
+   },
+   "success_at_0.50": {
+    "KG_kernel": 0.938,
+    "KG_null": 0.901,
+    "US_kernel": 0.792,
+    "CF_classic": 0.956,
+    "CF_bayes": 0.941,
+    "PAIR": 0.856,
+    "RANDOM": 0.692
+   },
+   "best_heuristic": "CF_classic",
+   "reduction_vs_best_heuristic": -0.1,
+   "reduction_ci95": [
+    -0.1892,
+    0.075
+   ],
+   "f90_KGnull_minus_KGkernel": 0.05,
+   "f90_KGnull_minus_KGkernel_ci95": [
+    0.0,
+    0.17
+   ]
+  }
+ },
+ "G2_pass_by_backbone": {
+  "mlp": false,
+  "xgb": false
+ },
+ "G2_pass": false
+}

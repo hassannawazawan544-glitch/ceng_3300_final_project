@@ -1,0 +1,22 @@
+{
+ "results/v1_dtmd/frozen/density_fits.json": "3fde5e4cdfb243fb6312e75439cdb8124ded3316117d599ab1372721ebfb73eb",
+ "results/v1_dtmd/frozen/mlp_scaler.npz": "15a40ad1c9c174cb079beb976bce211b5ee22575ae05998d1f30a446f058b091",
+ "results/v1_dtmd/frozen/mlp_seed0.pt": "e18c6b9569cd09ea00792f9a42eee24dc9691cc1d83373ed3f3b0a329bb69669",
+ "results/v1_dtmd/frozen/mlp_seed1.pt": "6e6e0425a56430c1e825061804fed8e07566741ae1f87aead64945679a9f96be",
+ "results/v1_dtmd/frozen/mlp_seed2.pt": "7c676c7eee6f2ff066ed372d0236e03c77887d23459ae8f285d11b3f7d71f110",
+ "results/v1_dtmd/frozen/phi_stats.npz": "49515507fdee5b1624b2ad0c331da65d47a97e814ee8d76d66904a35e08f5ef6",
+ "results/v1_dtmd/frozen/residual_params.json": "dc3eb655bb6a887399140f45edcd0329b643d6af84ea9d7f9b637916e8d93342",
+ "results/v1_dtmd/frozen/xgb.json": "ee35a3fcab3d0e26fb826cefb664664c75a0af0f2272b64f7ba44dacc26f7d17",
+ "results/v1_dtmd/frozen/xgb_meta.json": "7b516976cd52aa3cacd9b48b937182efe5f44a0624e0ed621ba852ef88749e2e",
+ "scripts/v1/v1_build_cohort.py": "cd3ca9ff31d965c497ca2740689c45481d57b15a59cc71dfc73c930d36932e5e",
+ "scripts/v1/v1_crossfit_mlp.py": "9831f5e4e028c13572f7b79e9e5d1b58fb3a0df1451674cbf43e762f787827b2",
+ "scripts/v1/v1_crossfit_xgb.py": "5a3fcc3667d1936c5d6301735ab093c7c1c6c48d544e650bb3cb07d510ca3c54",
+ "scripts/v1/v1_final_test.py": "7bbfc1753811173f4518c855b458f4c873f3bc3c886fa319cbf8c442de2b0435",
+ "scripts/v1/v1_freeze.py": "f3aaf6a9ef8c7b84f913e13c189984fcbd1c86fca5faeb45654c7da0cff5af24",
+ "scripts/v1/v1_g1_residual.py": "90165b63ad0c0a410c1643d13ebe6930386fe70659aeb878dcb535527155b12c",
+ "scripts/v1/v1_g1_verify.py": "58dfe6937f2d5bda54bd13bb19fa367dd83891b7219a659b9dd263fd3edf6c32",
+ "scripts/v1/v1_g2_policy.py": "c5333358c965c5b69e641c116b398612d8442fde44a893470c19d17374e8e048",
+ "scripts/v1/v1_g2b_scenarios.py": "5ce4261ce8e6df4ce2b15066a933a21d15204998a7efae0cc6f57eacfe90dacc",
+ "scripts/soltext/g2_text_augmentation.py": "adfd1474a54d9fafb532f0cc4a1fb61c6ce71898e2c8510473ae64beb4ec3f25",
+ "docs/v1/V1_PROTOCOL.md": "214d3f68e1846a6bcdc51da74644938b0729cc4af18310a17d3398526731d1a0"
+}

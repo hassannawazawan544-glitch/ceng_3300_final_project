@@ -1,0 +1,5 @@
+model,MAE,config,best_iteration
+mean,0.970436702787157,,
+ridge_inverseT_interactions,0.7703858088557528,,
+xgboost,0.6800680403257869,"{'max_depth': 4, 'min_child_weight': 5}",326.0
+xgboost,0.6691583309647885,"{'max_depth': 6, 'min_child_weight': 10}",326.0

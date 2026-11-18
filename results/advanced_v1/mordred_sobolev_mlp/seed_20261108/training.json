@@ -1,0 +1,6 @@
+{
+  "best_epoch": 1,
+  "validation_MAE": 0.6196831464767456,
+  "runtime_seconds": 20.96475648880005,
+  "gradient_training_rows": 57666
+}

@@ -1,0 +1,23 @@
+{
+  "selection": "validation MAE",
+  "candidates": [
+    {
+      "config": {
+        "max_depth": 4,
+        "min_child_weight": 5
+      },
+      "validation_MAE": 0.6274853062912716,
+      "n_trees": 792
+    },
+    {
+      "config": {
+        "max_depth": 6,
+        "min_child_weight": 10
+      },
+      "validation_MAE": 0.6194818581274812,
+      "n_trees": 469
+    }
+  ],
+  "n_features": 2641,
+  "runtime_seconds": 430.0014545917511
+}

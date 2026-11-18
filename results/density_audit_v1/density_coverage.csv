@@ -1,0 +1,71 @@
+key,T_min,T_max,rows,temperatures
+"1,2-dichloroethane",293.15,323.15,13,6
+"1,4-dioxane",283.15,343.15,17,8
+2-butanone,278.15,333.15,18,12
+2-butoxyethanol,293.15,343.15,24,11
+2-ethoxyethanol,288.15,343.15,22,12
+2-methoxyethanol,291.15,343.15,25,12
+2-propoxyethanol,288.15,318.15,11,7
+acetic acid,293.15,313.15,8,5
+acetone,278.15,318.15,15,6
+acetonitrile,293.15,333.15,18,9
+anisole,298.15,323.15,9,5
+benzene,283.15,328.15,46,46
+chlorobenzene,288.15,318.15,14,7
+chloroform,273.15,318.15,14,8
+cyclohexane,283.15,328.15,46,46
+cyclohexanone,298.15,308.15,6,3
+cyclopentanone,288.15,318.15,12,6
+dichloromethane,270.0,310.0,10,8
+diethyl ether,243.15,298.15,10,8
+dimethyl carbonate,293.15,343.15,16,10
+dmac,303.15,333.15,12,4
+dmf,298.15,333.15,12,5
+dmso,293.15,333.15,11,5
+ethanol,283.15,333.15,27,11
+ethyl acetate,278.15,328.15,19,10
+ethyl formate,293.15,323.15,9,6
+ethylbenzene,293.15,343.15,12,8
+ethylene glycol,273.16,338.15,20,14
+formamide,278.15,323.15,18,11
+formic acid,298.15,323.15,10,6
+gamma-butyrolactone,293.15,333.15,16,9
+isobutanol,288.15,323.15,13,8
+isobutyl acetate,298.15,313.15,6,4
+isopentanol,288.15,323.15,19,8
+isopropanol,298.15,323.15,11,5
+isopropyl acetate,293.15,308.15,5,3
+m-xylene,293.15,343.15,10,6
+methanol,283.15,328.15,46,46
+methyl acetate,278.15,318.15,11,7
+mibk,283.15,313.15,8,6
+mtbe,255.4,322.0,22,19
+n-butanol,283.15,313.15,10,5
+n-butyl acetate,293.15,318.15,10,6
+n-butyric acid,293.15,323.15,12,7
+n-decanol,283.15,318.15,9,7
+n-dodecane,283.15,328.15,46,46
+n-heptane,283.15,328.15,46,46
+n-heptanol,283.15,323.15,12,7
+n-hexane,283.15,328.15,46,46
+n-hexanol,288.15,328.15,16,9
+n-nonanol,283.15,318.15,13,7
+n-octane,283.15,328.15,46,46
+n-octanol,283.15,323.15,13,6
+n-pentane,283.15,309.15,27,27
+n-pentanol,283.15,313.15,13,5
+n-pentyl acetate,283.15,308.15,12,5
+n-propanol,288.15,333.15,16,9
+n-propyl acetate,298.15,313.15,8,4
+nmp,293.15,323.157,19,11
+o-xylene,293.15,343.15,10,6
+p-xylene,293.15,343.15,10,6
+propionic acid,293.15,313.15,15,5
+propylene glycol,293.15,335.78,16,8
+sec-butanol,288.15,333.15,21,10
+tert-butanol,298.15,348.15,15,9
+tetrachloromethane,285.15,313.15,13,7
+thf,288.15,323.15,15,8
+toluene,283.15,328.15,46,46
+transcutol,293.15,323.15,8,5
+water,273.65,373.12,996,996

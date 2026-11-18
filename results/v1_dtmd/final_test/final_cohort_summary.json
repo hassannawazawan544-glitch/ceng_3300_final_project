@@ -1,0 +1,11 @@
+{
+ "rows_after_eligibility": 6482,
+ "rows_before": 8038,
+ "dev_overlap_solutes_removed": 4,
+ "groups": 48,
+ "solutes": 47,
+ "sources": 48,
+ "groups_with_complete_density": 37,
+ "curves": 529,
+ "curves_sha256": "a5c2419351a799ce2bd9ff548c77654a0b2526c774a34d3a9203cdb0b3bc11a1"
+}
